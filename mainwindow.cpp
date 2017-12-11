@@ -12,3 +12,10 @@ MainWindow::~MainWindow()
 {
     delete ui;
 }
+
+void MainWindow::on_custom_clicked()
+{
+    input *i=new input;
+    i->show();
+
+}
