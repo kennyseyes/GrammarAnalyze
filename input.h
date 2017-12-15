@@ -5,6 +5,7 @@
 #include <method2core.h>
 #include <cctype>
 #include <QPushButton>
+#include <tablem.h>
 namespace Ui {
 class input;
 }
@@ -23,9 +24,19 @@ private slots:
 
     void on_submit_clicked();
 
+    void buttonJudge(int);
+    void on_pushButton_clicked();
+
+    void on_ok_2_clicked();
+
+    void on_pushButton_3_clicked();
+
+    void on_ok_clicked();
+
 private:
     Ui::input *ui;
     method2Core *m=new method2Core;
+    tableM *t;
 };
 
 #endif // INPUT_H

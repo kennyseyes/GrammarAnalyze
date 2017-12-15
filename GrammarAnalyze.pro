@@ -27,13 +27,16 @@ SOURCES += \
         main.cpp \
         mainwindow.cpp \
     input.cpp \
-    method2core.cpp
+    method2core.cpp \
+    tablem.cpp
 
 HEADERS += \
         mainwindow.h \
     input.h \
-    method2core.h
+    method2core.h \
+    tablem.h
 
 FORMS += \
         mainwindow.ui \
-    input.ui
+    input.ui \
+    tablem.ui

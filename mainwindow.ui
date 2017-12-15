@@ -17,11 +17,16 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>160</x>
-      <y>40</y>
+      <x>200</x>
+      <y>30</y>
       <width>181</width>
       <height>71</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>22</pointsize>
+     </font>
     </property>
     <property name="text">
      <string>语法分析</string>
@@ -30,8 +35,8 @@
    <widget class="QPushButton" name="default_2">
     <property name="geometry">
      <rect>
-      <x>160</x>
-      <y>210</y>
+      <x>170</x>
+      <y>250</y>
       <width>106</width>
       <height>29</height>
      </rect>
@@ -43,7 +48,7 @@
    <widget class="QPushButton" name="custom">
     <property name="geometry">
      <rect>
-      <x>160</x>
+      <x>170</x>
       <y>320</y>
       <width>106</width>
       <height>29</height>
@@ -51,6 +56,22 @@
     </property>
     <property name="text">
      <string>自定义</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>100</y>
+      <width>401</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>此程序只能消除直接左递归，若含有左递归请将含有左递归的产生式写在上面，否则程序无法识别</string>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
     </property>
    </widget>
   </widget>
